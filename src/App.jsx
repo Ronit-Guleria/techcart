@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Nav from "./Components/nav";
+import Nav from "./Components/Nav";
 import { Section } from "./Components/Section";
 import FeaturedProducts from "./Components/FeaturedProducts";
 import Whychooseus from "./Components/Whychooseus";
