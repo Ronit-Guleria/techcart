@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Nav from "./Components/Nav";
+import Nav from "./Components/nav";
 import { Section } from "./Components/Section";
 import FeaturedProducts from "./Components/FeaturedProducts";
 import Whychooseus from "./Components/Whychooseus";
@@ -21,7 +21,7 @@ function Home() {
   );
 }
 
-function Products(){
+function Products() {
   return <ProductsPage />
 }
 // function ProductsPage() {
